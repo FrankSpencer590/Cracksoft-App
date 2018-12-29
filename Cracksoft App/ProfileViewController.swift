@@ -20,7 +20,6 @@ class ProfileViewController: UITableViewController {
             signup.isHidden = true
             login.isHidden = true
             self.title = MyData.sharedInstance.namedict[MyData.sharedInstance.email!] as? String
-            print(self.title)
         } else {
             signout.isHidden = true
             signup.isHidden = false

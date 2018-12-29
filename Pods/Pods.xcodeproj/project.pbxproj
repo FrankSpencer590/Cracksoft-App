@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07622E5AFB84A396B22D4B29D3D622D6 /* Pods-Cracksoft AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0278D568AB3C98AA0330E9D1C8911C76 /* Pods-Cracksoft AppTests-dummy.m */; };
+		100BC8D408F5F6B89C5494B0F1A15C1A /* Pods-Cracksoft AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD2F64DEA8557D21766B1931FAFEF79 /* Pods-Cracksoft AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119B5A9D5C5FB4F5A145452B9FAF787B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1E1B6A020FB6E0B30F68B659B21A0989 /* Pods-Cracksoft App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A78301284B5C43DA4A25F91C2F26D74 /* Pods-Cracksoft App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36927466B4333E0569DBAB166F6E3491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3C7AA97932B729D504644D48E683A07B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E00E896BE50BC6F5B34CEEF063D25E2 /* Pods-Cracksoft AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E828562B4F445AD0832C27466509067F /* Pods-Cracksoft AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF2AC3CBFA67B4D760277D2F220D53F /* Pods-Cracksoft AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3930C2BB17728969DD4188971F91FEEB /* Pods-Cracksoft AppUITests-dummy.m */; };
+		CE1DAA809F2C7A1064CC95F4408EE155 /* Pods-Cracksoft App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C197DE416A4F574AF7617AD9DE5D6 /* Pods-Cracksoft App-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0166FC516AF30D4CA5B38C1CD2976C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBD6B2D147BF813D56F788CD7D4E9C6;
+			remoteInfo = "Pods-Cracksoft App";
+		};
+		785D0F06B473F698023AB34FFA39B998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBD6B2D147BF813D56F788CD7D4E9C6;
+			remoteInfo = "Pods-Cracksoft App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00681F7AA44F7E14C6AE9CB6C6568C3D /* Pods-Cracksoft App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cracksoft App.debug.xcconfig"; sourceTree = "<group>"; };
+		0278D568AB3C98AA0330E9D1C8911C76 /* Pods-Cracksoft AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cracksoft AppTests-dummy.m"; sourceTree = "<group>"; };
+		042FB7C0115D1A612DD98F97A944D94B /* Pods-Cracksoft App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cracksoft App.modulemap"; sourceTree = "<group>"; };
+		07234E31D074CFDEFA42154DD7288DBA /* Pods-Cracksoft App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cracksoft App-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D865B7A45AB43CDB975268332255480 /* Pods-Cracksoft App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cracksoft App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24FF3FE10D169C71A64DC7EDAECFCD21 /* Pods-Cracksoft AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cracksoft AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CD2F64DEA8557D21766B1931FAFEF79 /* Pods-Cracksoft AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cracksoft AppTests-umbrella.h"; sourceTree = "<group>"; };
+		379F04041C297209BE50C145700A4E2F /* Pods-Cracksoft AppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cracksoft AppTests-frameworks.sh"; sourceTree = "<group>"; };
+		3930C2BB17728969DD4188971F91FEEB /* Pods-Cracksoft AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cracksoft AppUITests-dummy.m"; sourceTree = "<group>"; };
+		41494F582C4E9EA1F8FB12E44F79797F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E335E7577A57522F039448EBE3D769 /* Pods-Cracksoft App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cracksoft App.release.xcconfig"; sourceTree = "<group>"; };
+		4A6090712E3553BD6493979EBD915A0B /* Pods-Cracksoft App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cracksoft App-frameworks.sh"; sourceTree = "<group>"; };
+		4A78301284B5C43DA4A25F91C2F26D74 /* Pods-Cracksoft App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cracksoft App-umbrella.h"; sourceTree = "<group>"; };
+		4BA8E93CFAED59F446B0DDB3A551D84B /* Pods_Cracksoft_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cracksoft_AppTests.framework; path = "Pods-Cracksoft AppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE74E4C9658FBF1A456864E68FC41F3 /* Pods-Cracksoft AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cracksoft AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53ECA72FCA069C6FD9C289CBE774E5D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD52714E03F79C1F5BCF08C902EA1BE /* Pods-Cracksoft AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cracksoft AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		641C9D0904363393DF49CC8FDCAE0666 /* Pods-Cracksoft AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cracksoft AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81DF87A8FABE1BA0BF89A2638B543733 /* Pods-Cracksoft AppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cracksoft AppTests-resources.sh"; sourceTree = "<group>"; };
+		887E3DE69C00F6E446AE68D72B7BF68D /* Pods-Cracksoft AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cracksoft AppTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BEBA3E50690BF9416D0E97918DAFE02 /* Pods-Cracksoft AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cracksoft AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A70E7E990FFE10FDC1A57299A2AA77FB /* Pods-Cracksoft AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cracksoft AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB6C835E6DA2F04F6EAFD8D69A5B647A /* Pods-Cracksoft AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cracksoft AppUITests.modulemap"; sourceTree = "<group>"; };
+		B276D4A83FCED58061AE5E71004513FC /* Pods_Cracksoft_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cracksoft_AppUITests.framework; path = "Pods-Cracksoft AppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B645340047F4038911F6FC1C8204C512 /* Pods-Cracksoft App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cracksoft App-resources.sh"; sourceTree = "<group>"; };
+		CCD302DDF31ECF8B9A81922E4FD8F04A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2CE4EBD90190551C68D3FB6A21F531 /* Pods-Cracksoft AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cracksoft AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D0A6720BCAEA519E962758758DD5DF13 /* Pods-Cracksoft AppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cracksoft AppUITests-resources.sh"; sourceTree = "<group>"; };
+		E0418AD574529714ADC5BF0F3B5D2A80 /* Pods-Cracksoft AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cracksoft AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E14C0C13E29820874053DE9DBBDF6042 /* Pods_Cracksoft_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cracksoft_App.framework; path = "Pods-Cracksoft App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E828562B4F445AD0832C27466509067F /* Pods-Cracksoft AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cracksoft AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		F9F952A69528181ADC1D9F3C6073B515 /* Pods-Cracksoft AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cracksoft AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0C197DE416A4F574AF7617AD9DE5D6 /* Pods-Cracksoft App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cracksoft App-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6A39156F764DFBDAB05C7B12032CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36927466B4333E0569DBAB166F6E3491 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F3B3ED402F804B286C23DDBAF2F135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119B5A9D5C5FB4F5A145452B9FAF787B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55980727C01EE8DF9724735FA051F807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7AA97932B729D504644D48E683A07B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1181ACA0B4C951E9C29E4FBC816254 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4AA01B3BD23B0F2F3DD97FA8A548620 /* Pods-Cracksoft App */,
+				72515BBC41174FF7BA199A702C2CC2B8 /* Pods-Cracksoft AppTests */,
+				51425A72C4D33ACC84E112CECCBC2CA7 /* Pods-Cracksoft AppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51425A72C4D33ACC84E112CECCBC2CA7 /* Pods-Cracksoft AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD302DDF31ECF8B9A81922E4FD8F04A /* Info.plist */,
+				AB6C835E6DA2F04F6EAFD8D69A5B647A /* Pods-Cracksoft AppUITests.modulemap */,
+				9BEBA3E50690BF9416D0E97918DAFE02 /* Pods-Cracksoft AppUITests-acknowledgements.markdown */,
+				641C9D0904363393DF49CC8FDCAE0666 /* Pods-Cracksoft AppUITests-acknowledgements.plist */,
+				3930C2BB17728969DD4188971F91FEEB /* Pods-Cracksoft AppUITests-dummy.m */,
+				CF2CE4EBD90190551C68D3FB6A21F531 /* Pods-Cracksoft AppUITests-frameworks.sh */,
+				D0A6720BCAEA519E962758758DD5DF13 /* Pods-Cracksoft AppUITests-resources.sh */,
+				E828562B4F445AD0832C27466509067F /* Pods-Cracksoft AppUITests-umbrella.h */,
+				A70E7E990FFE10FDC1A57299A2AA77FB /* Pods-Cracksoft AppUITests.debug.xcconfig */,
+				E0418AD574529714ADC5BF0F3B5D2A80 /* Pods-Cracksoft AppUITests.release.xcconfig */,
+			);
+			name = "Pods-Cracksoft AppUITests";
+			path = "Target Support Files/Pods-Cracksoft AppUITests";
+			sourceTree = "<group>";
+		};
+		72515BBC41174FF7BA199A702C2CC2B8 /* Pods-Cracksoft AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				53ECA72FCA069C6FD9C289CBE774E5D9 /* Info.plist */,
+				887E3DE69C00F6E446AE68D72B7BF68D /* Pods-Cracksoft AppTests.modulemap */,
+				4BE74E4C9658FBF1A456864E68FC41F3 /* Pods-Cracksoft AppTests-acknowledgements.markdown */,
+				24FF3FE10D169C71A64DC7EDAECFCD21 /* Pods-Cracksoft AppTests-acknowledgements.plist */,
+				0278D568AB3C98AA0330E9D1C8911C76 /* Pods-Cracksoft AppTests-dummy.m */,
+				379F04041C297209BE50C145700A4E2F /* Pods-Cracksoft AppTests-frameworks.sh */,
+				81DF87A8FABE1BA0BF89A2638B543733 /* Pods-Cracksoft AppTests-resources.sh */,
+				2CD2F64DEA8557D21766B1931FAFEF79 /* Pods-Cracksoft AppTests-umbrella.h */,
+				F9F952A69528181ADC1D9F3C6073B515 /* Pods-Cracksoft AppTests.debug.xcconfig */,
+				5CD52714E03F79C1F5BCF08C902EA1BE /* Pods-Cracksoft AppTests.release.xcconfig */,
+			);
+			name = "Pods-Cracksoft AppTests";
+			path = "Target Support Files/Pods-Cracksoft AppTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AB040AC8965015D88769AA14DE3504F5 /* Products */,
+				4F1181ACA0B4C951E9C29E4FBC816254 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AB040AC8965015D88769AA14DE3504F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14C0C13E29820874053DE9DBBDF6042 /* Pods_Cracksoft_App.framework */,
+				4BA8E93CFAED59F446B0DDB3A551D84B /* Pods_Cracksoft_AppTests.framework */,
+				B276D4A83FCED58061AE5E71004513FC /* Pods_Cracksoft_AppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4AA01B3BD23B0F2F3DD97FA8A548620 /* Pods-Cracksoft App */ = {
+			isa = PBXGroup;
+			children = (
+				41494F582C4E9EA1F8FB12E44F79797F /* Info.plist */,
+				042FB7C0115D1A612DD98F97A944D94B /* Pods-Cracksoft App.modulemap */,
+				0D865B7A45AB43CDB975268332255480 /* Pods-Cracksoft App-acknowledgements.markdown */,
+				07234E31D074CFDEFA42154DD7288DBA /* Pods-Cracksoft App-acknowledgements.plist */,
+				FD0C197DE416A4F574AF7617AD9DE5D6 /* Pods-Cracksoft App-dummy.m */,
+				4A6090712E3553BD6493979EBD915A0B /* Pods-Cracksoft App-frameworks.sh */,
+				B645340047F4038911F6FC1C8204C512 /* Pods-Cracksoft App-resources.sh */,
+				4A78301284B5C43DA4A25F91C2F26D74 /* Pods-Cracksoft App-umbrella.h */,
+				00681F7AA44F7E14C6AE9CB6C6568C3D /* Pods-Cracksoft App.debug.xcconfig */,
+				42E335E7577A57522F039448EBE3D769 /* Pods-Cracksoft App.release.xcconfig */,
+			);
+			name = "Pods-Cracksoft App";
+			path = "Target Support Files/Pods-Cracksoft App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D78A4774E10BF1D90C2D276874C6BDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E00E896BE50BC6F5B34CEEF063D25E2 /* Pods-Cracksoft AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C970ABA1AFA993D4CD9FEF669D451AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1B6A020FB6E0B30F68B659B21A0989 /* Pods-Cracksoft App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4CDA0D0B165117425968B31EC113BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100BC8D408F5F6B89C5494B0F1A15C1A /* Pods-Cracksoft AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF5250B70DE2F0EDA52843998A4EA0DE /* Pods-Cracksoft AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822535F9E5E463C7E8D30B2CE1A4E000 /* Build configuration list for PBXNativeTarget "Pods-Cracksoft AppTests" */;
+			buildPhases = (
+				E4B575D3FBA4C5B011EB9A104181A43E /* Sources */,
+				55980727C01EE8DF9724735FA051F807 /* Frameworks */,
+				DA4CDA0D0B165117425968B31EC113BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51779D62AAB4AD532B15F9F2BEA40241 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cracksoft AppTests";
+			productName = "Pods-Cracksoft AppTests";
+			productReference = 4BA8E93CFAED59F446B0DDB3A551D84B /* Pods_Cracksoft_AppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9202B2250283F3EC25E8B35AFDAF867 /* Pods-Cracksoft AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050900AC238735E4C3888D52ECE6F4E7 /* Build configuration list for PBXNativeTarget "Pods-Cracksoft AppUITests" */;
+			buildPhases = (
+				1D2D5229C95F023C963EABF145067D46 /* Sources */,
+				1F6A39156F764DFBDAB05C7B12032CFA /* Frameworks */,
+				0D78A4774E10BF1D90C2D276874C6BDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DE62405445068C3008C3ED2F952AAF /* PBXTargetDependency */,
+			);
+			name = "Pods-Cracksoft AppUITests";
+			productName = "Pods-Cracksoft AppUITests";
+			productReference = B276D4A83FCED58061AE5E71004513FC /* Pods_Cracksoft_AppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDBD6B2D147BF813D56F788CD7D4E9C6 /* Pods-Cracksoft App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CADF6D99ECFFEF00BD760625A69B111 /* Build configuration list for PBXNativeTarget "Pods-Cracksoft App" */;
+			buildPhases = (
+				3765AE867901193E29E39184BD06B671 /* Sources */,
+				30F3B3ED402F804B286C23DDBAF2F135 /* Frameworks */,
+				1C970ABA1AFA993D4CD9FEF669D451AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Cracksoft App";
+			productName = "Pods-Cracksoft App";
+			productReference = E14C0C13E29820874053DE9DBBDF6042 /* Pods_Cracksoft_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AB040AC8965015D88769AA14DE3504F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDBD6B2D147BF813D56F788CD7D4E9C6 /* Pods-Cracksoft App */,
+				BF5250B70DE2F0EDA52843998A4EA0DE /* Pods-Cracksoft AppTests */,
+				E9202B2250283F3EC25E8B35AFDAF867 /* Pods-Cracksoft AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2D5229C95F023C963EABF145067D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF2AC3CBFA67B4D760277D2F220D53F /* Pods-Cracksoft AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3765AE867901193E29E39184BD06B671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1DAA809F2C7A1064CC95F4408EE155 /* Pods-Cracksoft App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B575D3FBA4C5B011EB9A104181A43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07622E5AFB84A396B22D4B29D3D622D6 /* Pods-Cracksoft AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51779D62AAB4AD532B15F9F2BEA40241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cracksoft App";
+			target = EDBD6B2D147BF813D56F788CD7D4E9C6 /* Pods-Cracksoft App */;
+			targetProxy = 3D0166FC516AF30D4CA5B38C1CD2976C /* PBXContainerItemProxy */;
+		};
+		69DE62405445068C3008C3ED2F952AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cracksoft App";
+			target = EDBD6B2D147BF813D56F788CD7D4E9C6 /* Pods-Cracksoft App */;
+			targetProxy = 785D0F06B473F698023AB34FFA39B998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		078AB0FD8DC3D96C48FCF78F6EA9D571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E335E7577A57522F039448EBE3D769 /* Pods-Cracksoft App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cracksoft App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cracksoft App/Pods-Cracksoft App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B15D21D9A9D3DDBFD0AD2542A5A3C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70E7E990FFE10FDC1A57299A2AA77FB /* Pods-Cracksoft AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cracksoft AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cracksoft AppUITests/Pods-Cracksoft AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7968F1F2B8588F5C88E53A0D338DFBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F952A69528181ADC1D9F3C6073B515 /* Pods-Cracksoft AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cracksoft AppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cracksoft AppTests/Pods-Cracksoft AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DBBD545B5E0C1BC56524EA78C325778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00681F7AA44F7E14C6AE9CB6C6568C3D /* Pods-Cracksoft App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cracksoft App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cracksoft App/Pods-Cracksoft App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE82DDC98E26E67A06189D36F28BD3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD52714E03F79C1F5BCF08C902EA1BE /* Pods-Cracksoft AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cracksoft AppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cracksoft AppTests/Pods-Cracksoft AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF6C302C566561DFF6BEB6893D01086F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0418AD574529714ADC5BF0F3B5D2A80 /* Pods-Cracksoft AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cracksoft AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cracksoft AppUITests/Pods-Cracksoft AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050900AC238735E4C3888D52ECE6F4E7 /* Build configuration list for PBXNativeTarget "Pods-Cracksoft AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B15D21D9A9D3DDBFD0AD2542A5A3C24 /* Debug */,
+				AF6C302C566561DFF6BEB6893D01086F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CADF6D99ECFFEF00BD760625A69B111 /* Build configuration list for PBXNativeTarget "Pods-Cracksoft App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBBD545B5E0C1BC56524EA78C325778 /* Debug */,
+				078AB0FD8DC3D96C48FCF78F6EA9D571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822535F9E5E463C7E8D30B2CE1A4E000 /* Build configuration list for PBXNativeTarget "Pods-Cracksoft AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7968F1F2B8588F5C88E53A0D338DFBEC /* Debug */,
+				AE82DDC98E26E67A06189D36F28BD3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
